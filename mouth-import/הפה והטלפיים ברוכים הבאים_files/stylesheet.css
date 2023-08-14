@@ -1,0 +1,108 @@
+BODY {
+	BACKGROUND: #77aa38;
+	MARGIN: 0px 0px 0px 0px;
+	SCROLLBAR-FACE-COLOR: #77aa38;
+	SCROLLBAR-HIGHLIGHT-COLOR: #77aa38;
+	SCROLLBAR-SHADOW-COLOR: #77aa38;
+	SCROLLBAR-3DLIGHT-COLOR: #77aa38;
+	SCROLLBAR-ARROW-COLOR: #5E7F28;
+	SCROLLBAR-TRACK-COLOR: #77aa38;
+	SCROLLBAR-DARKSHADOW-COLOR: #77aa38;
+}
+BODY, TR, TD {
+	FONT-SIZE: 14px;
+	letter-spacing: 1px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "arial";
+	line-height: 17px;
+	text-align: justify;
+}
+.scrollingtext {
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: normal;
+	letter-spacing: 1px;
+	COLOR: #000000;
+	FONT-FAMILY: "arial";
+	line-height: 17px;
+	text-align: justify;
+}
+.title {
+	FONT-SIZE: 15px;
+	letter-spacing: 2px;
+	COLOR: #FFEC00;
+	FONT-FAMILY: "arial";
+	font-weight: bold;
+}
+.news {
+	margin-top: 3px;
+	FONT-SIZE: 11.5px;
+	letter-spacing: 2px;
+	COLOR: #9D4B1F;
+	FONT-FAMILY: "arial";
+	font-weight: bold;
+	width:750px;
+}
+.scrollingtitle {
+	FONT-SIZE: 15px;
+	letter-spacing: 2px;
+	COLOR: #000000;
+	FONT-FAMILY: "arial";
+	font-weight: bold;
+}
+.scrollingsubtitle {
+	FONT-SIZE: 12px;
+	letter-spacing: 2px;
+	COLOR: #000000;
+	FONT-FAMILY: "arial";
+	font-weight: bold;
+}
+A:link {
+	COLOR: #ffffff;
+	TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #ffffff;
+	TEXT-DECORATION: none;
+}
+A:hover {
+	COLOR: #FFEC00;
+	TEXT-DECORATION: none;
+}
+A:active {
+	COLOR: #ffffff;
+	TEXT-DECORATION: none;
+}
+INPUT {
+	FONT-SIZE: 13px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: "Tahoma";
+	background: #77aa38;
+	border: 1px solid #FFFFFF;
+}
+TEXTAREA {
+	FONT-SIZE: 13px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: "Tahoma";
+	background: #77aa38;
+	border: 1px solid #FFFFFF;
+}
+/*
+     FILE ARCHIVED ON 16:27:11 Jan 06, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:21:56 Aug 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 56.302
+  exclusion.robots: 0.061
+  exclusion.robots.policy: 0.053
+  cdx.remote: 0.05
+  esindex: 0.007
+  LoadShardBlock: 32.806 (3)
+  PetaboxLoader3.datanode: 58.628 (4)
+  load_resource: 485.594
+  PetaboxLoader3.resolve: 431.756
+*/
