@@ -60,10 +60,11 @@
 		}
 
 		#links {
-			font-size: small;
+			font-size: xx-small;
 			position: sticky;
 			top: 0;
 			background-color: #081020;
+			margin: 2%;
 		}
 	</style>
 </head>
@@ -73,28 +74,28 @@
 		<h3> EVERY SIX YEARS | כל שש שנים</h3>
 	-->
 	<div align="center">
-		<header style="position: sticky; top: 0;z-index: 1;">
-			<a href="./code/he.html" target="new">הקוד (HE)</a>
-			::
-			<a href="./code/de.html" target="new">Der Code (DE)</a>
-			::
-			<a href="./code/en.html" target="new">The Code (EN)</a>
-
-			<div align="right" style="position:absolute;right: 4%;">
+		<nav style="position: sticky; height: 32px; top:0; z-index: 1;">
+			<div align="right" style="position:absolute; right: 4%;">
 				<p style="font-size:1.7vw;">
 					הפה והטלפיים
 				</p>
-				<img src=" logo-clear.png" color="#A33" style="width:10vw; filter:invert(.8)" />
+				<img src=" logo-clear.png" color="#A33" style="width:10vw; top:21%;  filter:invert(.8)" />
 				<p style="font-size:1.5vw;">
 					MOUTH AND FOOT
 				</p>
 			</div>
-			<!-- </div> -->
-		</header>
+			<a href="#code-he">הקוד (HE)</a>
+			::
+			<a href="#code-en">The Code (EN)</a>
+			::
+			<a href="#code-de">Der Code (DE)</a>
+
+
+
+		</nav>
 		<div style="position:sticky;">
 			<!-- background image -->
 			<img src="layout.webp" style="max-width: 90%; " />
-
 		</div>
 	</div>
 	<div id=links align="center">
@@ -112,78 +113,127 @@
 		<!-- <a href="https://www.youtube.com/channel/UCPW16Jgd3KrqyQVbUyy8kFQ?view_as=subscriber" target="new">youtube</a>  -->
 		<a href="https://www.youtube.com/@mouthandfoot5432/videos" target="new">youtube</a>
 		::
-		<!-- "http://mouthonline.net/oldsite.html" -->
-		<!-- <a href="mailto:gavron@gmail.com" target="new">contact</a> -->
-		<!-- <a href="mailto:mouthonline@gmail.com">mouthonline@gmail.com</a> -->
 		<a href="mailto:mouthonline@gmail.com">contact</a>
 	</div>
 
-	<!-- garble = (el) => {
-		abc = 'abcdefghijklmnopqrstuvwxyz1234567890'
-		abc = [...abc].filter(c => el.textContent.search(c) > -1).join('')
-		r = () => abc[Math.floor(Math.random() * abc.length)]
-		el.textContent = abc.length > 2 ? el.textContent.replaceAll(r(), r()) : el.textContent.replace(r(), r())
-		} -->
-	<article style="margin:5%; padding-left: 15%; padding-right: 15%;">
-		<div id=" header">
-			<h1>הקוד של הפה</h1>
-		</div>
-		<div id="content">
-			<div id="preamble">
-				<p>הוא מערכת כללים שהפה והטלפיים התחייבו עוד בראשית דרכם למלא באדיקות.
-					ההרכב לקח על עצמו להוציא אלבום בכל שש שנים עד הגיעם של חבריו לגיל
-					שמונים. כדי לעמוד בהתחייבות נכבדת כזו נחוצה משמעת. וכדי לקיים משמעת,
-					דרושים כללים.</p>
+	<article style="margin:5%; padding-left: 15%; padding-right: 15%;padding-top: 5% ">
+		<div id="code-he">
+			<h1>
+				הקוד של הפה
+			</h1>
+			<div lang="he">
+				<div id="preamble">
+					<p>הוא מערכת כללים שהפה והטלפיים התחייבו עוד בראשית דרכם למלא באדיקות.
+						ההרכב לקח על עצמו להוציא אלבום בכל שש שנים עד הגיעם של חבריו לגיל
+						שמונים. כדי לעמוד בהתחייבות נכבדת כזו נחוצה משמעת. וכדי לקיים משמעת,
+						דרושים כללים.</p>
+				</div>
+				<h3>1. אלבום כל שש שנים</h3>
+				<p>כלל הברזל החזק מכולם. המחויבות לעמוד בו חשובה יותר מכל אספקט אחר בהוויה
+					של הפה והטלפיים. הכלל לא הופר מעולם.</p>
+				<h3>2. עטיפה אחת - הרבה צבעים</h3>
+				<p>לכל אלבומי הפה עטיפה זהה, הכוללת את התמונה המרכזית של הפה (על השער) ואת
+					התמונה המשנית של הפה (בתוך החוברת). כדי שניתן יהיה להבחין בין האלבומים,
+					לכל אלבום צבע ייחודי.</p>
+				<h3>3. אין על קסיו</h3>
+				<p>כלי הנגינה המרכזי של הפה והטלפיים הוא אורגן הקסיו.</p>
+				<h3>4. גרסת הכיסוי הפטריוטית</h3>
+				<p>הרצועה האחרונה בכל אלבום של הפה היא גרסה מאולתרת של שיר ישראלי פטריוטי.</p>
+				<h3>5. ההזמנה הפתוחה</h3>
+				<p>בכל אלבום נשלחת הזמנה פתוחה לחברים או אמנים המקובלים על הפה, ליטול חלק
+					בקטע או שניים. הדבר נעשה על מנת שלא לאבד קשר עם העולם החיצון.</p>
+				<h3>6. השיר בעל המשמעות הסופנית</h3>
+				<p>לשיר הלפני אחרון בכל אלבום צריכה להיות תימה סופנית – במלודיה, במילים,
+					בכותרת או בכולם.</p>
+				<h3>7. כותרת ממקמת</h3>
+				<p>הזמן הרב שעובר בין אלבום לאלבום, מוצא את הפה והטלפיים בכל פעם במקום אחר
+					– גיאוגרפית ומנטלית. להרכב חשוב לציין זאת בכותרות האלבומים.</p>
+				<h3>8. שיר הנושא של האלבום הקודם</h3>
+				<p>בכל אלבום מופיע שיר ששמו כשם האלבום שקדם לו.</p>
+				<h3>9. רוח ההקלטה</h3>
+				<p>הרעיון הבסיסי הוא שמירה על רמת טריות, פשטות ואינטואיטיביות מקסימליים
+					בערוצים המוקלטים.</p>
+				<h3>10. חברת התקליטים פושטת את הרגל</h3>
+				<p>אולי הסעיף המסתורי והאפל ביותר בקוד. ההיסטוריה מראה שכל חברת תקליטים
+					שמוציאה אלבום לפה והטלפיים פושטת רגל תוך שנים ספורות, ובכל מקרה לפני
+					יציאת האלבום הבא של הפה.</p>
+				<h3>11. גרף החשיפה מכפיל</h3>
+				<p>נתונים מראים שגרף החשיפה של אלבומי הפה מכפיל את עצמו בכל אלבום.</p>
+				<h3>12. השיר הקצר</h3>
+				<p>בכל אלבום מופיע שיר קצר הכולל בית אחד מושר, והמשך אינסטרומנטלי ארוך
+					יותר. לשיר הקצר אין פזמון או חלק שלישי. השיר הקצר לא חייב בהכרח להיות
+					השיר הקצר ביותר באלבום.</p>
+				<h3>13. המסר הסמוי</h3>
+				<p>במהלך גרסת הכיסוי הפטריוטית יימסר תמיד מסר סמוי מאת הפה והטלפיים לדמות
+					מוכרת בחיים הציבוריים של ישראל, בעלת רלוונטיות לשיר, לאלבום או לתקופה.</p>
+				<h3>14. השיר המפנה טענות אל בת המין היפה בגוף שני
+				</h3>
+				<p>בכל אלבום מופיע שיר אשר פונה ישירות אל נציגה דמיונית של המין השני בשורה
+					של טענות.</p>
+				<h3>15. התפרצות המגפה</h3>
+				<p>בכל שנת פה יש התפרצות של מגפת הפה והטלפיים איפשהו בעולם.</p>
 			</div>
-			<h3>1. אלבום כל שש שנים</h3>
-			<p>כלל הברזל החזק מכולם. המחויבות לעמוד בו חשובה יותר מכל אספקט אחר בהוויה
-				של הפה והטלפיים. הכלל לא הופר מעולם.</p>
-			<h3>2. עטיפה אחת - הרבה צבעים</h3>
-			<p>לכל אלבומי הפה עטיפה זהה, הכוללת את התמונה המרכזית של הפה (על השער) ואת
-				התמונה המשנית של הפה (בתוך החוברת). כדי שניתן יהיה להבחין בין האלבומים,
-				לכל אלבום צבע ייחודי.</p>
-			<h3>3. אין על קסיו</h3>
-			<p>כלי הנגינה המרכזי של הפה והטלפיים הוא אורגן הקסיו.</p>
-			<h3>4. גרסת הכיסוי הפטריוטית</h3>
-			<p>הרצועה האחרונה בכל אלבום של הפה היא גרסה מאולתרת של שיר ישראלי פטריוטי.</p>
-			<h3>5. ההזמנה הפתוחה</h3>
-			<p>בכל אלבום נשלחת הזמנה פתוחה לחברים או אמנים המקובלים על הפה, ליטול חלק
-				בקטע או שניים. הדבר נעשה על מנת שלא לאבד קשר עם העולם החיצון.</p>
-			<h3>6. השיר בעל המשמעות הסופנית</h3>
-			<p>לשיר הלפני אחרון בכל אלבום צריכה להיות תימה סופנית – במלודיה, במילים,
-				בכותרת או בכולם.</p>
-			<h3>7. כותרת ממקמת</h3>
-			<p>הזמן הרב שעובר בין אלבום לאלבום, מוצא את הפה והטלפיים בכל פעם במקום אחר
-				– גיאוגרפית ומנטלית. להרכב חשוב לציין זאת בכותרות האלבומים.</p>
-			<h3>8. שיר הנושא של האלבום הקודם</h3>
-			<p>בכל אלבום מופיע שיר ששמו כשם האלבום שקדם לו.</p>
-			<h3>9. רוח ההקלטה</h3>
-			<p>הרעיון הבסיסי הוא שמירה על רמת טריות, פשטות ואינטואיטיביות מקסימליים
-				בערוצים המוקלטים.</p>
-			<h3>10. חברת התקליטים פושטת את הרגל</h3>
-			<p>אולי הסעיף המסתורי והאפל ביותר בקוד. ההיסטוריה מראה שכל חברת תקליטים
-				שמוציאה אלבום לפה והטלפיים פושטת רגל תוך שנים ספורות, ובכל מקרה לפני
-				יציאת האלבום הבא של הפה.</p>
-			<h3>11. גרף החשיפה מכפיל</h3>
-			<p>נתונים מראים שגרף החשיפה של אלבומי הפה מכפיל את עצמו בכל אלבום.</p>
-			<h3>12. השיר הקצר</h3>
-			<p>בכל אלבום מופיע שיר קצר הכולל בית אחד מושר, והמשך אינסטרומנטלי ארוך
-				יותר. לשיר הקצר אין פזמון או חלק שלישי. השיר הקצר לא חייב בהכרח להיות
-				השיר הקצר ביותר באלבום.</p>
-			<h3>13. המסר הסמוי</h3>
-			<p>במהלך גרסת הכיסוי הפטריוטית יימסר תמיד מסר סמוי מאת הפה והטלפיים לדמות
-				מוכרת בחיים הציבוריים של ישראל, בעלת רלוונטיות לשיר, לאלבום או לתקופה.</p>
-			<h3>14. השיר המפנה טענות אל בת המין היפה בגוף שני
-			</h3>
-			<p>בכל אלבום מופיע שיר אשר פונה ישירות אל נציגה דמיונית של המין השני בשורה
-				של טענות.</p>
-			<h3>15. התפרצות המגפה</h3>
-			<p>בכל שנת פה יש התפרצות של מגפת הפה והטלפיים איפשהו בעולם.</p>
-			<footer style="direction: ltr;">
-				© 2020 by Mouth and Foot
-			</footer>
 		</div>
+
+		<div id="code-en" lang="en" dir="ltr">
+			<h1>The Code of the Mouth</h1>
+			<h2>1. An album every six years</h2>
+			<p>The most important rule of all. The commitment to keep it is more
+				important than any other aspect in the existence of the Mouth and Foot.</p>
+			<h2>2. One cover - many colours</h2>
+			<p>All Mouth albums have an identical cover, that includes the main Mouth
+				image (on the front), and the secondary mouth image (in the booklet).
+				Each album has its unique colour.</p>
+			<h2>3. Casio is king</h2>
+			<p>The central musical instrument of the Mouth and Foot is the Casio organ.
+				The automatic accompaniment function of these organs is the skeleton
+				around which most of the group&#8217;s songs are created.</p>
+			<h2>4. The patriotic cover version</h2>
+			<p>The last track in every Mouth album is an improvised version of a known
+				patriotic Israeli song. The cover version is recorded in one take and
+				with no rehearsals.</p>
+			<h2>5. The Open Invitation</h2>
+			<p>In each album an open invitation is sent to friends or artists admired
+				by the Mouth, to take part in one or two tracks.</p>
+			<h2>6. The song with the fatal meaning</h2>
+			<p>The one before last song in each album has a fatal theme - in melody,
+				lyrics, title or all three.</p>
+			<h2>7. The locating title</h2>
+			<p>The long time between albums finds the Mouth and Foot in a different
+				place each time - geography and mentally. It&#8217;s important for the group
+				to note this in the titles of the albums.</p>
+			<h2>8. The song with the previous album&#8217;s title</h2>
+			<p>Every album includes a song which has the title of the previous album.</p>
+			<h2>9. The Spirit of recording</h2>
+			<p>The basic idea is to maintain a level of maximal freshness, simplicity
+				and intuitiveness in the recorded tracks.</p>
+			<h2>10. The record label goes bankrupt</h2>
+			<p>Possibly the most mysterious and dark rule in the code. History shows
+				that every record label that releases an album for the Mouth and Foot
+				goes bankrupt before the release of the next Mouth album.</p>
+			<h2>11. Exposure figures double</h2>
+			<p>Sales figures show that Mouth sales double with the release of every album.</p>
+			<h2>12. The short song</h2>
+			<p>Each album includes a short song that contains one verse that is sang,
+				followed by a longer instrumental part. The short song has no chorus or
+				C part.</p>
+			<h2>13. The secret message</h2>
+			<p>Inside the patriotic cover version, a hidden message is sent from the
+				Mouth and Foot to a known person in Israeli public life.</p>
+			<h2>14. The song that directs allegations towards a member of the beautiful</h2>
+			<p>gender in second person</p>
+			<p>In each album there will be a song that is aimed directly at an imagined
+				representative of the other gender, with a list if allegations.</p>
+			<h2>15. The disease outbreak</h2>
+			<p>Every Mouth Year (a year when a Mouth and Foot album is released), there
+				is an outbreak of the Mouth and Foot disease somewhere in the world.</p>
+		</div>
+		<footer style="direction: ltr;">
+			© 2020 by Mouth and Foot
+		</footer>
 	</article>
+
+
 </body>
 
 </html>
