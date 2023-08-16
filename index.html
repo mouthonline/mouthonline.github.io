@@ -6,12 +6,11 @@
 	<title>Mouth and Foot</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
 	<style type="text/css">
 		body,
 		td,
 		th {
+			direction: rtl;
 			color: #999;
 			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 		}
@@ -47,69 +46,150 @@
 			font-size: small;
 		}
 
-		h1,
-		h2 {
-			color: #248;
-			/* color: #102040; */
+		h1 {
+			color: #CEF;
+		}
+
+		h3 {
+			color: #9AD;
+		}
+
+		p {
+			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+			color: #89B;
+		}
+
+		#links {
+			font-size: small;
+			position: sticky;
+			top: 0;
+			background-color: #081020;
 		}
 	</style>
 </head>
 
 <body>
-
 	<!-- 			
-		<h2> EVERY SIX YEARS | כל שש שנים</h2>
+		<h3> EVERY SIX YEARS | כל שש שנים</h3>
 	-->
-
 	<div align="center">
-		<!-- הקוד של הפה -->
-		<header>
-			<a href="./code/en.html" target="new">The Code (EN)</a>
+		<header style="position: sticky; top: 0;z-index: 1;">
+			<a href="./code/he.html" target="new">הקוד (HE)</a>
 			::
 			<a href="./code/de.html" target="new">Der Code (DE)</a>
 			::
-			<a href="./code/he.html" target="new">הקוד (HE)</a>
-		</header>
+			<a href="./code/en.html" target="new">The Code (EN)</a>
 
-		<div>
-			<p>
-				<!-- background image -->
-				<img src="layout.webp" style="max-width: 90%; " />
-			<div style="position:fixed; right: 15%; top: 5%; max-width: 50%;">
-				<p dir="rtl" style="font-size:1.7vw;">
+			<div align="right" style="position:absolute;right: 10%;">
+				<p style="font-size:1.7vw;">
 					הפה והטלפיים
 				</p>
 				<img src=" logo-clear.png" color="#A33" style="width:10vw; filter:invert(.8)" />
-				<br />
-				<p dir="rtl" style="font-size:1.5vw;">
+				<p style="font-size:1.5vw;">
 					MOUTH AND FOOT
 				</p>
 			</div>
+			<!-- </div> -->
+		</header>
+		<div style="position:sticky;">
+			<!-- background image -->
+			<img src="layout.webp" style="max-width: 90%; " />
 
-			</p>
-			<p>
-				<!-- links -->
-				<a href="https://music.apple.com/il/artist/mouth-and-foot/953446932" target="new">apple</a>
-				::
-				<a href="http://mouthandfoot.bandcamp.com/" target="new">bandcamp</a>
-				::
-				<a href="https://www.facebook.com/mouthandfoot?ref=hl" target="new">facebook</a>
-				::
-				<a href="https://open.spotify.com/artist/1YI2KYx69I28t10C2C95EE" target="new">spotify</a>
-				::
-				<a href="http://he.wikipedia.org/wiki/הפה_והטלפיים_(להקה)" target="new">wikipedia</a>
-				::
-				<!-- <a href="https://www.youtube.com/channel/UCPW16Jgd3KrqyQVbUyy8kFQ?view_as=subscriber" target="new">youtube</a>  -->
-				<a href="https://www.youtube.com/@mouthandfoot5432/videos" target="new">youtube</a>
-				::
-				<!-- "http://mouthonline.net/oldsite.html" -->
-				<!-- <a href="mailto:gavron@gmail.com" target="new">contact</a> -->
-				<!-- <a href="mailto:mouthonline@gmail.com">mouthonline@gmail.com</a> -->
-				<a href="mailto:mouthonline@gmail.com">contact</a>
-
-			</p>
 		</div>
 	</div>
+	<div id=links align="center">
+
+		<a href="https://music.apple.com/il/artist/mouth-and-foot/953446932" target="new">apple</a>
+		::
+		<a href="http://mouthandfoot.bandcamp.com/" target="new">bandcamp</a>
+		::
+		<a href="https://www.facebook.com/mouthandfoot?ref=hl" target="new">facebook</a>
+		::
+		<a href="https://open.spotify.com/artist/1YI2KYx69I28t10C2C95EE" target="new">spotify</a>
+		::
+		<a href="http://he.wikipedia.org/wiki/הפה_והטלפיים_(להקה)" target="new">wikipedia</a>
+		::
+		<!-- <a href="https://www.youtube.com/channel/UCPW16Jgd3KrqyQVbUyy8kFQ?view_as=subscriber" target="new">youtube</a>  -->
+		<a href="https://www.youtube.com/@mouthandfoot5432/videos" target="new">youtube</a>
+		::
+		<!-- "http://mouthonline.net/oldsite.html" -->
+		<!-- <a href="mailto:gavron@gmail.com" target="new">contact</a> -->
+		<!-- <a href="mailto:mouthonline@gmail.com">mouthonline@gmail.com</a> -->
+		<a href="mailto:mouthonline@gmail.com">contact</a>
+	</div>
+
+	<!-- garble = (el) => {
+		abc = 'abcdefghijklmnopqrstuvwxyz1234567890'
+		abc = [...abc].filter(c => el.textContent.search(c) > -1).join('')
+		r = () => abc[Math.floor(Math.random() * abc.length)]
+		el.textContent = abc.length > 2 ? el.textContent.replaceAll(r(), r()) : el.textContent.replace(r(), r())
+		} -->
+	<article style="margin:5%; padding-left: 15%; padding-right: 15%;">
+		<div id=" header">
+			<h1>הקוד של הפה</h1>
+		</div>
+		<div id="content">
+			<div id="preamble">
+				<p>הוא מערכת כללים שהפה והטלפיים התחייבו עוד בראשית דרכם למלא באדיקות.
+					ההרכב לקח על עצמו להוציא אלבום בכל שש שנים עד הגיעם של חבריו לגיל
+					שמונים. כדי לעמוד בהתחייבות נכבדת כזו נחוצה משמעת. וכדי לקיים משמעת,
+					דרושים כללים.</p>
+			</div>
+			<h3>1. אלבום כל שש שנים</h3>
+			<p>כלל הברזל החזק מכולם. המחויבות לעמוד בו חשובה יותר מכל אספקט אחר בהוויה
+				של הפה והטלפיים. הכלל לא הופר מעולם.</p>
+			<h3>2. עטיפה אחת - הרבה צבעים</h3>
+			<p>לכל אלבומי הפה עטיפה זהה, הכוללת את התמונה המרכזית של הפה (על השער) ואת
+				התמונה המשנית של הפה (בתוך החוברת). כדי שניתן יהיה להבחין בין האלבומים,
+				לכל אלבום צבע ייחודי.</p>
+			<h3>3. אין על קסיו</h3>
+			<p>כלי הנגינה המרכזי של הפה והטלפיים הוא אורגן הקסיו.</p>
+			<h3>4. גרסת הכיסוי הפטריוטית</h3>
+			<p>הרצועה האחרונה בכל אלבום של הפה היא גרסה מאולתרת של שיר ישראלי פטריוטי.</p>
+			<h3>5. ההזמנה הפתוחה</h3>
+			<p>בכל אלבום נשלחת הזמנה פתוחה לחברים או אמנים המקובלים על הפה, ליטול חלק
+				בקטע או שניים. הדבר נעשה על מנת שלא לאבד קשר עם העולם החיצון.</p>
+			<h3>6. השיר בעל המשמעות הסופנית</h3>
+			<p>לשיר הלפני אחרון בכל אלבום צריכה להיות תימה סופנית – במלודיה, במילים,
+				בכותרת או בכולם.</p>
+			<h3>7. כותרת ממקמת</h3>
+			<p>הזמן הרב שעובר בין אלבום לאלבום, מוצא את הפה והטלפיים בכל פעם במקום אחר
+				– גיאוגרפית ומנטלית. להרכב חשוב לציין זאת בכותרות האלבומים.</p>
+			<h3>8. שיר הנושא של האלבום הקודם</h3>
+			<p>בכל אלבום מופיע שיר ששמו כשם האלבום שקדם לו.</p>
+			<h3>9. רוח ההקלטה</h3>
+			<p>הרעיון הבסיסי הוא שמירה על רמת טריות, פשטות ואינטואיטיביות מקסימליים
+				בערוצים המוקלטים.</p>
+			<h3>10. חברת התקליטים פושטת את הרגל</h3>
+			<p>אולי הסעיף המסתורי והאפל ביותר בקוד. ההיסטוריה מראה שכל חברת תקליטים
+				שמוציאה אלבום לפה והטלפיים פושטת רגל תוך שנים ספורות, ובכל מקרה לפני
+				יציאת האלבום הבא של הפה.</p>
+			<h3>11. גרף החשיפה מכפיל</h3>
+			<p>נתונים מראים שגרף החשיפה של אלבומי הפה מכפיל את עצמו בכל אלבום.</p>
+			<h3>12. השיר הקצר</h3>
+			<p>בכל אלבום מופיע שיר קצר הכולל בית אחד מושר, והמשך אינסטרומנטלי ארוך
+				יותר. לשיר הקצר אין פזמון או חלק שלישי. השיר הקצר לא חייב בהכרח להיות
+				השיר הקצר ביותר באלבום.</p>
+			<h3>13. המסר הסמוי</h3>
+			<p>במהלך גרסת הכיסוי הפטריוטית יימסר תמיד מסר סמוי מאת הפה והטלפיים לדמות
+				מוכרת בחיים הציבוריים של ישראל, בעלת רלוונטיות לשיר, לאלבום או לתקופה.</p>
+			<h3>14. השיר המפנה טענות אל בת המין היפה בגוף שני
+			</h3>
+			<p>בכל אלבום מופיע שיר אשר פונה ישירות אל נציגה דמיונית של המין השני בשורה
+				של טענות.</p>
+			<h3>15. התפרצות המגפה</h3>
+			<p>בכל שנת פה יש התפרצות של מגפת הפה והטלפיים איפשהו בעולם.</p>
+			<footer style="direction: ltr;">
+				© 2020 by Mouth and Foot
+			</footer>
+		</div>
+	</article>
 </body>
 
 </html>
+<!-- 
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+	
+ -->
