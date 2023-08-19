@@ -28,59 +28,95 @@ a {
 }
 
 h1 {
-    color: #CEF;
+    color: #ACD;
+    /* text-align: center; */
+    text-decoration: underline;
 }
 
 h3 {
-    color: #9AD;
+    color: #68A;
 }
 
 p {
-    color: #89B;
+    color: #89A;
 }
 
 
+/* logo */
 header {
     position: sticky;
-    top: 4%;
-    right: 2%;
-    z-index: 10;
-    width: 12%;
     text-align: center;
+    top: 7%;
+    right: 2%;
+    width: 12%;
     height: 0;
+    z-index: 10;
 }
 
+/* logo text */
+header p {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+/* code he/en/de */
 nav {
     font-size: large;
     position: sticky;
+    /* margin-top: 1%; */
+    margin-bottom: 1%;
     top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #081020;
     text-align: center;
+    height: 4%;
+    z-index: 2;
+
 }
 
 nav>div {
-    padding: 1%;
+    z-index: 4;
 }
 
+/* links */
+aside {
+    font-size: 1vw;
+    position: sticky;
+    /* bottom: 2%; */
+    /* z-index: 3; */
+    background-color: #081020;
+    padding: 1%;
+    text-align: center;
+    /* height: 1%; */
+    bottom: 0;
+}
 
 footer {
-    font-size: small;
-    position: sticky;
-    bottom: 0;
+    font-size: x-small;
     background-color: #081020;
-    margin: 2%;
+    z-index: 3;
+    padding: 1%;
     text-align: center;
 }
-
-
 
 img#main {
     width: 100%;
 }
 
 article {
-    margin: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+img#logo {
+    width: 80%;
+    filter: invert(.8);
+}
+
+img#logo:hover {
+    filter: invert(.9);
 }
