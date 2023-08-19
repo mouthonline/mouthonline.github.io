@@ -24,7 +24,7 @@ a:active {
 
 a {
     text-decoration: none;
-    color: #FF6;
+    /* color: #FF6; */
 }
 
 h1 {
@@ -46,8 +46,8 @@ p {
 header {
     position: sticky;
     text-align: center;
-    top: 7%;
-    right: 2%;
+    top: 5%;
+    right: 5%;
     width: 12%;
     height: 0;
     z-index: 10;
@@ -61,7 +61,7 @@ header p {
 
 /* code he/en/de */
 nav {
-    font-size: large;
+    font-size: 1.4vw;
     position: sticky;
     /* margin-top: 1%; */
     margin-bottom: 1%;
@@ -83,17 +83,15 @@ nav>div {
 aside {
     font-size: 1vw;
     position: sticky;
-    /* bottom: 2%; */
-    /* z-index: 3; */
     background-color: #081020;
     padding: 1%;
     text-align: center;
-    /* height: 1%; */
     bottom: 0;
 }
 
 footer {
-    font-size: x-small;
+    font-size: 0.8vw;
+
     background-color: #081020;
     z-index: 3;
     padding: 1%;
@@ -111,6 +109,9 @@ article {
     padding-right: 15%;
 }
 
+.code {
+    padding-top: 3%;
+}
 
 img#logo {
     width: 80%;
