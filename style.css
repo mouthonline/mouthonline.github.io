@@ -3,7 +3,8 @@ body {
     margin: 0;
     color: #999;
     background-color: #081020;
-    font-family: monospace;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+
 }
 
 a:link {
