@@ -3,10 +3,8 @@ body {
     margin: 0;
     color: #999;
     background-color: #081020;
-    /* font-family: 'Fira Mono'; */
-    font-family: 'Courier New', Courier, monospace;
-
-    /* //Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace; */
+    font-family: 'FreeMono', "Andale Mono", Consolas,
+        "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 
 }
 
@@ -49,6 +47,7 @@ p {
 /* logo */
 header {
     font-family: "paamon";
+    font-weight: 400;
     position: sticky;
     text-align: center;
     top: 5%;
@@ -66,7 +65,7 @@ header p {
 /* code he/en/de */
 nav {
     font-family: "paamon";
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     position: sticky;
     /* margin-top: 1%; */
     margin-bottom: 1%;
@@ -87,7 +86,9 @@ nav>div {
 /* links */
 aside {
     font-family: "paamon";
-    font-size: 1vw;
+    font-size: 1.2vw;
+    font-weight: 300;
+
     position: sticky;
     background-color: #081020;
     padding: 1%;
@@ -113,6 +114,19 @@ article {
     margin-right: 10%;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+article h1 {
+    font-size: 2vw;
+}
+
+article h3 {
+    font-size: 1.5vw;
+}
+
+article p {
+    font-size: 1.4vw;
+
 }
 
 .code {
@@ -183,28 +197,10 @@ img#logo:hover {
 /* /// */
 
 @font-face {
-    font-family: 'Fira Mono';
-    font-weight: 700;
-    /*(bold)*/
+    font-family: 'FreeMono';
     font-style: normal;
-    src:
-        url('fonts/Fira_Mono/FiraMono-Bold.ttf') format('ttf'),
-}
-
-@font-face {
-    font-family: 'Fira Mono';
-    font-weight: 500;
-    /*(bold)*/
-    font-style: normal;
-    src:
-        url('fonts/Fira_Mono/FiraMono-Medium.ttf') format('ttf'),
-}
-
-@font-face {
-    font-family: 'Fira Mono';
     font-weight: 400;
-    /*(bold)*/
-    font-style: normal;
     src:
-        url('fonts/Fira_Mono/FiraMono-Regular.ttf') format('ttf'),
+        local('FreeMono'),
+        url('https://fonts.cdnfonts.com/s/16387/FreeMono.woff') format('woff');
 }
