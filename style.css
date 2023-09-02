@@ -62,10 +62,10 @@ header p {
     font-size: 1.2vw;
 }
 
-/* code he/en/de */
+/* code he/en/de/... */
 nav {
     font-family: "paamon";
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     position: sticky;
     /* margin-top: 1%; */
     margin-bottom: 1%;
