@@ -2,18 +2,18 @@ body {
     direction: rtl;
     margin: 0;
     color: #999;
-    background-color: #081020;
+    background-color: #f68c18;
     font-family: 'FreeMono', "Andale Mono", Consolas,
         "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 
 }
 
 a:link {
-    color: #CCC;
+    color: #EEE;
 }
 
 a:visited {
-    color: #CCC;
+    color: #EEE;
 }
 
 a:hover {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 a:active {
-    color: #CCC;
+    color: #EEE;
 }
 
 a {
@@ -72,7 +72,7 @@ nav {
     top: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: #081020;
+    background-color: #f68c18;
     text-align: center;
     height: 4%;
     z-index: 2;
@@ -90,7 +90,7 @@ aside {
     font-weight: 300;
 
     position: sticky;
-    background-color: #081020;
+    background-color: #f68c18;
     padding: 1%;
     text-align: center;
     bottom: 0;
@@ -99,7 +99,7 @@ aside {
 footer {
     font-family: "paamon";
     font-size: 0.8vw;
-    background-color: #081020;
+    background-color: #f68c18;
     z-index: 3;
     padding: 1%;
     text-align: center;
