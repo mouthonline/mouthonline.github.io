@@ -1,7 +1,7 @@
 body {
     direction: rtl;
     margin: 0;
-    color: #999;
+    color: rgb(145, 90, 20);
     background-color: #f68c18;
     font-family: 'FreeMono', "Andale Mono", Consolas,
         "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
@@ -9,38 +9,36 @@ body {
 }
 
 a:link {
-    color: #EEE;
+    color: rgb(66, 33, 0);
 }
 
 a:visited {
-    color: #EEE;
+    color: rgb(66, 33, 40);;
 }
 
 a:hover {
-    color: #FF9;
+    color: rgb(99, 66, 80);
 }
 
 a:active {
-    color: #EEE;
+    color: rgb(88, 44, 22);
 }
 
 a {
     text-decoration: none;
-    /* color: #FF6; */
 }
 
 h1 {
-    color: #ACD;
-    /* text-align: center; */
+    color: rgb(66, 33, 0);
     text-decoration: underline;
 }
 
 h3 {
-    color: #68A;
+    color: rgb(83, 54, 0);
 }
 
 p {
-    color: #89A;
+    color: rgb(45, 22, 0);
 }
 
 
@@ -135,11 +133,11 @@ article p {
 
 img#logo {
     width: 80%;
-    filter: invert(.8);
+    filter: invert(0);
 }
 
 img#logo:hover {
-    filter: invert(.9);
+    filter: invert(1);
 }
 
 @font-face {
