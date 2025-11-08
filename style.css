@@ -28,6 +28,13 @@ a {
     text-decoration: none;
 }
 
+a#download p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+}
+
 h1 {
     color: rgb(66, 33, 0);
     text-decoration: underline;
@@ -48,7 +55,7 @@ header {
     font-weight: 400;
     position: sticky;
     text-align: center;
-    top: 5%;
+    top: 15%;
     right: 5%;
     width: 12%;
     height: 0;
@@ -63,7 +70,7 @@ header p {
 /* code he/en/de/... */
 nav {
     font-family: "paamon";
-    font-size: 1.4vw;
+    font-size: 2.0vw;
     position: sticky;
     /* margin-top: 1%; */
     margin-bottom: 1%;
@@ -72,7 +79,7 @@ nav {
     padding-bottom: 1%;
     background-color: #f68c18;
     text-align: center;
-    height: 4%;
+    height: 5%;
     z-index: 2;
 
 }
@@ -84,7 +91,7 @@ nav>div {
 /* links */
 aside {
     font-family: "paamon";
-    font-size: 1.2vw;
+    font-size: 2.0vw;
     font-weight: 300;
 
     position: sticky;
@@ -96,7 +103,7 @@ aside {
 
 footer {
     font-family: "paamon";
-    font-size: 0.8vw;
+    font-size: 1.3vw;
     background-color: #f68c18;
     z-index: 3;
     padding: 1%;
