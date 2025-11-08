@@ -64,13 +64,13 @@ header {
 
 /* logo text */
 header p {
-    font-size: 1.2vw;
+    font-size: 0.7em;
 }
 
 /* code he/en/de/... */
 nav {
     font-family: "paamon";
-    font-size: 1.9vw;
+    font-size: 2.1vw;
     position: sticky;
     /* margin-top: 1%; */
     margin-bottom: 1%;
@@ -124,15 +124,15 @@ article {
 }
 
 article h1 {
-    font-size: 2vw;
+    font-size: 1.4em;
 }
 
 article h3 {
-    font-size: 1.5vw;
+    font-size: 1em;
 }
 
 article p {
-    font-size: 1.4vw;
+    font-size: 0.8em;
 
 }
 
