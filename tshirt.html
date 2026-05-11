@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>חולצת הפה קיץ 2026</title>
+
+  <style>
+    h1,
+    p,
+    form,
+    input {
+      direction: rtl
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 18px 60px;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid #fff;
+    }
+
+    .product {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+
+    .product-image {
+      width: 100%;
+      border: 2px solid #111;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 42px;
+      line-height: 1.05;
+      margin: 0 0 16px;
+      letter-spacing: -1px;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 18px 0;
+    }
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 28px;
+    }
+
+    form {
+      background: #fff;
+      color: #111;
+      border: 2px solid #111;
+      padding: 22px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin: 18px 0 6px;
+    }
+
+    select,
+    input,
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #555;
+      background: #fff;
+    }
+
+    .radio-row {
+      display: flex;
+      gap: 18px;
+      margin-top: 8px;
+    }
+
+    .radio-row label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .radio-row input {
+      width: auto;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .payment-box {
+      margin-top: 24px;
+      padding: 18px;
+      background: #f7f4ee;
+      border: 1px solid #111;
+    }
+
+    .payment-box p {
+      margin: 8px 0;
+    }
+
+    button {
+      margin-top: 22px;
+      width: 100%;
+      padding: 14px 18px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      background: #111;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.86;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #fff;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 760px) {
+      .product {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <a href="index.html">← אתר הפה</a>
+    </header>
+
+    <main class="product">
+      <section>
+        <img class="product-image" src="black-shirt.jpg" alt="Mouth and Foot T-shirt" />
+      </section>
+
+      <section>
+        <h1>חולצת הפה - קיץ 2026 - החולצה השחורה</h1>
+
+        <p class="description">
+          {החולצה הרשמית של הקיץ}
+        </p>
+
+        <p class="price">מחיר: ₪70</p>
+        <p class="note">
+          איסוף חינם. משלוח בתוספת ₪15
+        </p>
+
+        <form id="orderForm" action="https://formsubmit.co/73d3aaf2e0d23e262ea4a678a888ecf4" method="POST">
+          <input type="hidden" name="_subject" value="הזמנה חדשה" />
+
+          <input type="hidden" name="_next" value="https://mouthonline.github.io/thanks.html" />
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input type="hidden" name="Payment instructions"
+            value="אחרי שליחת ההזמנה, בבקשה שלמו בביט או בפייבוקס למספר 054-4825477. בהערה כתבו: חולצת פה + השם שלכם." />
+          <input type="hidden" name="Pickup location"
+            value="חולית, בית הבד 5 ת''א | שני, שלישי 12:00 - 17:00 | שישי 11:00 - 16:00" />
+
+
+
+          <label for="name">שם</label>
+          <input id="name" name="Name" type="text" required />
+
+          <label for="email">אימייל</label>
+          <input id="email" name="Email" type="email" required />
+
+          <label for="phone">טלפון</label>
+          <input id="phone" name="Phone" type="tel" required />
+
+          <label for="size">מידה</label>
+          <select id="size" name="Size" required>
+            <option value="">בחרו מידה</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
+
+          <label>אופן משלוח</label>
+
+          <div class="radio-row">
+            <label>
+              <input type="radio" name="Delivery" value="Pickup" checked />
+              איסוף - סה"כ 70 ₪
+            </label>
+
+            <label>
+              <input type="radio" name="Delivery" value="Post" dir="rtl" />
+              דואר - סה"כ
+              85 ₪
+            </label>
+          </div>
+
+          <div id="pickupBlock" class="payment-box">
+            <strong>נקודת האיסוף</strong>
+
+            <p>
+              חולית, בית הבד 5 ת"א
+              |
+              שני, שלישי 12:00 - 17:00
+              |
+              שישי 11:00 - 16:00
+            </p>
+
+          </div>
+
+          <div id="addressBlock" class="hidden">
+            <label for="address">כתובת למשלוח</label>
+            <textarea id="address" name="Address" rows="4" placeholder="רחוב, מספר בית, עיר, מיקוד"></textarea>
+          </div>
+
+          <div class="payment-box">
+            <strong>תשלום</strong>
+
+            <p>שלמו בביט או פייבוקס למספר</p>
+
+            <p><strong>054-4825477</strong></p>
+
+            <p>
+              בהערה כתבו:
+              <strong>חולצת פה + השם שלכם</strong>
+            </p>
+          </div>
+
+          <button type="submit">להזמין</button>
+
+          <p class="note">
+            אחרי ההזמנה, בבקשה השלימו את התשלום בביט או בפייבוקס.
+            תקבלו אישור הזמנה לאחר התשלום
+          </p>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const pickupBlock = document.getElementById("pickupBlock");
+    const addressBlock = document.getElementById("addressBlock");
+    const addressInput = document.getElementById("address");
+    const deliveryOptions = document.querySelectorAll("input[name='Delivery']");
+
+    deliveryOptions.forEach((option) => {
+      option.addEventListener("change", () => {
+        const selectedDelivery = document.querySelector(
+          "input[name='Delivery']:checked"
+        ).value;
+
+        if (selectedDelivery === "Post") {
+          pickupBlock.classList.add("hidden");
+          addressBlock.classList.remove("hidden");
+          addressInput.required = true;
+        } else {
+          pickupBlock.classList.remove("hidden");
+          addressBlock.classList.add("hidden");
+          addressInput.required = false;
+          addressInput.value = "";
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
