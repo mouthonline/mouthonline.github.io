@@ -151,12 +151,8 @@ img#logo:hover {
 }
 
 #tshirt-img{
-    width: 12vw;
+    width: 6vw;
     animation: spin 1.8s linear infinite;
-}
-
-#tshirt-img:hover {
-    filter: invert(1);
 }
 
 @keyframes spin {
