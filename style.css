@@ -28,7 +28,8 @@ a {
     text-decoration: none;
 }
 
-a#download p {
+a#download p,
+a#tshirt p {
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: black;
